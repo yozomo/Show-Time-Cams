@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Benjamin -- Lead Coder -- @pdxbenjamin
+
+# THANKS
+
+    Mom
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, CodeIgniter, Twitter Bootstrap, Normalize.css, jQuery, Modernizr

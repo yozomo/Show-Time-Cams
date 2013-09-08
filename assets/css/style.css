@@ -1,0 +1,175 @@
+html, body {
+  height: 100%;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -60px;
+  padding: 0 0 60px;
+}
+
+#sticker {
+  margin: 0 auto;
+  padding: 15px 10px 10px 10px;
+  width: 100%;
+  bottom-border: #000000 1px solid;
+  z-index: 1000;
+  background: #999999;
+}
+
+/* 
+  Start General Styles
+*/
+
+/*
+  End General Styles
+*/
+
+/*
+  Start Pages
+*/
+
+.page-header {
+}
+
+.page-body {
+  margin-bottom: 20px;
+}
+
+/*
+  Start Pages
+*/
+
+/*
+  Start Model Grid
+*/
+
+.modelItem {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+
+.modelItemInner {
+  margin-bottom: 30px;
+  padding: 5px;
+  height: 200px;
+  border: 1px solid #999999;
+  color: #000000;
+  background: #ffffff;
+}
+
+.modelItemInner:hover {
+  border: 1px solid #000000;
+}
+
+.modelItemInner h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.modelItemInner p {
+  margin: 0;
+  padding: 0;
+}
+
+.modelItemInner a, .modelItemInner a:hover {
+  text-decoration: none;
+}
+
+/*
+  End Model Grid
+*/
+
+/*
+  Start Login / Signup Pages
+*/
+
+.loginWrap {
+  padding: 10px;
+  background: #999999;
+}
+
+.signupWrap {
+  padding: 10px;
+  background: #999999;
+}
+
+/*
+  End Login / Signup Pages
+*/
+
+/*
+  Start Account
+*/
+
+.accountWrap {
+  padding: 10px;
+  background: #999999;
+}
+
+.broadcaststatuson {
+  margin-left: 30px;
+  height: 60px;
+  width: 60px;
+  background: url('/assets/images/broadcaston.png') top right;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.broadcaststatusoff {
+  margin-left: 30px;
+  height: 60px;
+  width: 60px;
+  background: url('/assets/images/broadcastoff.png') top right;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/*
+  End Account
+*/
+
+/*
+  Start Footer
+*/
+
+#footer {
+  margin: 0 auto 25px;
+  padding: 15px 10px 10px 10px;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+/*
+  End Footer
+*/
+
+@media (max-width: 767px) {
+  #footer {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/*
+  Start Validation Styles
+*/
+
+.ui-state-error {
+  padding-top: 2px !important;
+  padding-left: 10px !important;
+  border: none !important;
+}
+
+.message {
+  background: none !important;
+}
+
+/*
+  End Validation Styles
+*/
+
